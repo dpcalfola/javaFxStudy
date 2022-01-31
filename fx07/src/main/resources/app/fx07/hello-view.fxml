@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #AAA492#AAA492;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.fx07.StartController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c7bea2" height="200.0" layoutX="20.0" layoutY="314.0" rotate="31.2" stroke="#c7bea2" strokeType="INSIDE" width="303.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c7bea2" height="200.0" layoutX="570.0" layoutY="322.0" rotate="31.2" stroke="#c7bea2" strokeType="INSIDE" width="303.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c7bea2" height="200.0" layoutX="414.0" layoutY="-53.0" rotate="31.2" stroke="#c7bea2" strokeType="INSIDE" width="303.0" />
+      <AnchorPane prefHeight="600.0" prefWidth="260.0" style="-fx-background-color: #AAA492#AAA492;">
+         <children>
+            <VBox layoutX="35.0" layoutY="251.0" prefHeight="301.0" prefWidth="190.0" spacing="20.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#button1" prefHeight="45.0" prefWidth="196.0" stylesheets="@style.css" text="Button 1" textFill="#aaa492">
+                     <font>
+                        <Font name="Osaka-Mono" size="25.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#button2" prefHeight="45.0" prefWidth="196.0" stylesheets="@style.css" text="Button 2" textFill="#aaa492">
+                     <font>
+                        <Font name="Osaka-Mono" size="25.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#button3" prefHeight="45.0" prefWidth="196.0" stylesheets="@style.css" text="Button 3" textFill="#aaa492">
+                     <font>
+                        <Font name="Osaka-Mono" size="25.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#button4" prefHeight="45.0" prefWidth="196.0" stylesheets="@style.css" text="Button 4" textFill="#aaa492">
+                     <font>
+                        <Font name="Osaka-Mono" size="25.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#button5" prefHeight="45.0" prefWidth="196.0" stylesheets="@style.css" text="Button 5" textFill="#aaa492">
+                     <font>
+                        <Font name="Osaka-Mono" size="25.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <AnchorPane layoutX="35.0" layoutY="38.0" prefHeight="167.0" prefWidth="190.0" style="-fx-background-color: #2D4263#2D4263; -fx-background-radius: 5;" AnchorPane.bottomAnchor="393.0" AnchorPane.topAnchor="40.0">
+               <children>
+                  <Label layoutX="35.0" layoutY="21.0" prefHeight="71.0" prefWidth="122.0" text="AcaFola" textAlignment="CENTER" textFill="#aaa492" wrapText="true">
+                     <font>
+                        <Font name="New Peninim MT" size="33.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="25.0" layoutY="85.0" prefHeight="64.0" prefWidth="141.0" text="fola student management system" textAlignment="CENTER" textFill="#aaa492" wrapText="true">
+                     <font>
+                        <Font name="New Peninim MT" size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="254.0" layoutY="-14.0" prefHeight="600.0" prefWidth="540.0">
+         <children>
+            <AnchorPane layoutX="186.0" layoutY="127.0" prefHeight="248.0" prefWidth="543.0" style="-fx-background-color: #2D4263#2D4263; -fx-background-radius: 5;" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="60.0">
+               <children>
+                  <Label layoutX="128.0" layoutY="27.0" prefHeight="97.0" prefWidth="225.0" text="Scene 1" textFill="#aaa492">
+                     <font>
+                        <Font name="System Bold" size="64.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="103.0" layoutY="124.0" prefHeight="97.0" prefWidth="276.0" text="This is login scene" textFill="#aaa492">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
